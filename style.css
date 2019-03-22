@@ -57,3 +57,23 @@ li:before {
 	content: counters(item, ".") " ";
 	counter-increment: item;
 }
+
+/* Style the headers of the lists */
+
+.list-h1 {
+	color:#436C9C;
+	font-family: Arial;
+	font-weight:bold;
+}
+
+.list-h2 {
+	color:#436C9C;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.list-h3 {
+	color:#436C9C;
+	font-family: Arial;
+	font-weight: bold;
+}
