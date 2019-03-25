@@ -18,7 +18,7 @@ p {
 }
 
 
-/* --------------- Margin -------------- */
+/* ---------------------- Margin -------------------- */
 
 @media (max-width: 480px) {
     .content{
@@ -56,22 +56,7 @@ h1 {
 	font-weight:bold;
 }
 
-h2 {
-	color:#436C9C;
-	font-family: Arial;
-	font-weight: bold;
-
-
-}
-
-h3 {
-	color:#436C9C;
-	font-family: Arial;
-	font-weight: bold;
-}
-
-
-/* Ordered Lists */
+/* ------------------- Ordered Lists ----------------- */
 
 ol {
 	counter-reset: item;
@@ -86,7 +71,7 @@ li:before {
 	counter-increment: item;
 }
 
-/* Style the headers of the lists */
+/* --------------- Headers of the lists -------------- */
 
 .list-h1 {
 	color:#436C9C;
