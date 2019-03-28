@@ -85,3 +85,25 @@ li:before {
 	font-weight: bold;
 }
 
+
+/* ------------------- Inside-parakomp ----------------- */
+
+autorname {
+
+}
+
+songname {
+
+}
+
+book-page::before {
+	content: " >>> S. "
+}
+
+book-page {
+
+}
+
+description {
+	
+}
