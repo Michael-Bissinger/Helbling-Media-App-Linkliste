@@ -96,6 +96,9 @@ li:before {
 	font-weight: normal;
 }
 
+.inside-parakomp-link {
+	font-weight: bold;
+}
 
 autorname {
 
@@ -106,11 +109,11 @@ songname {
 }
 
 book-page::before {
-	content: " >>> S. "
+	content: " S. "
 }
 
 book-page {
-
+	font-weight:normal;
 }
 
 description {
@@ -119,5 +122,19 @@ description {
 
 interpret {
 	font-style: italic;	
+
+}
+
+link {
+	font-style: bold;
+}
+
+link-checked::before {
+	content: "geprüft: "
+}
+
+link-checked {
+	font-style: italic;
+	font-weight: normal;
 
 }
