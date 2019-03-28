@@ -88,6 +88,15 @@ li:before {
 
 /* ------------------- Inside-parakomp ----------------- */
 
+.inside-parakomp-title {
+	font-weight: bold;
+}
+
+.inside-parakomp {
+	font-weight: normal;
+}
+
+
 autorname {
 
 }
@@ -105,5 +114,10 @@ book-page {
 }
 
 description {
-	
+
+}
+
+interpret {
+	font-style: italic;	
+
 }
