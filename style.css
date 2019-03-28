@@ -100,7 +100,11 @@ li:before {
 	font-weight: bold;
 }
 
-autorname {
+authorname::after {
+	content: ": ";
+}
+
+authorname {
 
 }
 
