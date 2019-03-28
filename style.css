@@ -138,3 +138,13 @@ link-checked {
 	font-weight: normal;
 
 }
+
+
+
+/* ------------------- Tables ----------------- */
+
+table {
+	border: 1px solid #d6d6d6;
+	background-color: #f9f9f9;
+}
+
