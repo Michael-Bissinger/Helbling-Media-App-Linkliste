@@ -1,10 +1,11 @@
-alert( 'Hello, world!' );
-
-
 /* Hide all content once at the beginning */
+document.getElementsByClassName("inside-parakomp-title").style.visibility = "hidden";
+document.getElementsByClassName("inside-parakomp").style.visibility = "hidden";
+document.getElementsByClassName("content-inside").style.visibility = "hidden";
+
 document.getElementsByClassName("inside-parakomp-title").style.display = "none";
 document.getElementsByClassName("inside-parakomp").style.display = "none";
-document.getElementsByClassName("content-inside").style.visibility = "hidden";
+document.getElementsByClassName("content-inside").style.display = "none";
 
 document.getElementsByClassName("list-h2").style.visibility = "hidden";
 
