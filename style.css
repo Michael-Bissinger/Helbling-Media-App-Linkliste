@@ -18,6 +18,13 @@ p {
 	margin: 4px 0 4px 0;
 }
 
+/* ----------------- Hide/Show on start -------------- */
+
+#data
+{
+	display:none; /* this hides all the parakompositions */
+}
+
 
 /* ---------------------- Margin -------------------- */
 
