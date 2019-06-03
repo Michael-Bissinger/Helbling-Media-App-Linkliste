@@ -33,22 +33,6 @@ p {
 
 /* ---------------------- Margin -------------------- */
 
-/*
-
-@media (max-width: 480px) {
-    .content{
-       margin-left: 20px;
-    }
-}
-
-@media (max-width: 320px) {
-    .content{
-       margin-left: 10px;
-    }
-}
-
-*/
-
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 	body { margin-left: 30px;
 	margin-right: 30px; }
@@ -70,7 +54,7 @@ p {
 	margin-right: 10px; } }
 
 
-/* Static margin = shit
+/* Static margin = not used
 
 .content {
 	margin-left: 50px;
