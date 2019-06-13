@@ -20,10 +20,12 @@ p {
 
 /* ----------------- Hide/Show on start -------------- */
 
+/*
 #data
 {
 	display:none; /* this hides all the parakompositions */
-}
+/*}
+*/
 
 .hidden {
 	display: none !important;
@@ -54,15 +56,6 @@ p {
 	margin-right: 10px; } }
 
 
-/* Static margin = not used
-
-.content {
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-*/
-
 h1 {
 	color:#436C9C;
 	font-family: Arial;
@@ -77,6 +70,10 @@ ol {
 
 li {
 	display: block;
+	display: inline-block;
+
+
+
 }
 
 li:before {
