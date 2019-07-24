@@ -66,12 +66,12 @@ h1 {
 
 ol {
 	counter-reset: item;
+	padding: 0;
 }
 
 li {
 	display: block;
 	display: inline-block;
-
 
 
 }
@@ -94,6 +94,7 @@ li:before {
 	color:#436C9C;
 	font-family: Arial;
 	margin: 4px 0 4px 0;
+
 }
 
 
@@ -112,6 +113,7 @@ li:before {
 	display: inline-block;
 	line-height: 24px;
 }
+
 
 
 autorname {
