@@ -83,6 +83,19 @@ li:before {
 
 /* --------------- Headers of the lists -------------- */
 
+body {
+	counter-reset: counter1;
+}
+
+.list-h1 {
+	counter-reset: counter2
+}
+/*
+.list-h1::before {
+	counter-increment: counter1;
+	content: counter(counter1);
+}*/
+
 .list-h1 {
 	color:#436C9C;
 	font-family: Arial;
