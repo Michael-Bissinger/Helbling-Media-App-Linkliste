@@ -66,13 +66,14 @@ h1 {
 
 ol {
 	counter-reset: item;
+
 	padding: 0;
 }
 
 li {
 	display: block;
 	display: inline-block;
-
+	counter-increment: start 3;
 
 }
 
