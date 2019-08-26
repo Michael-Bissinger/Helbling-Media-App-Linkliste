@@ -159,6 +159,24 @@ interpret {
 
 }
 
+/* ------------------- Links ----------------- */
+
+a:link {
+	color: grey;
+}
+
+a:visited {
+	color:red;
+}
+
+a:hover {
+	color:grey;
+}
+
+a:active {
+	color: grey;
+}
+
 link {
 	font-style: bold;
 }
