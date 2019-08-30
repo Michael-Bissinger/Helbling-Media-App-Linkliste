@@ -20,18 +20,10 @@ p {
 
 /* ----------------- Hide/Show on start -------------- */
 
-/*
-#data
-{
-	display:none; /* this hides all the parakompositions */
-/*}
-*/
-
 .hidden {
 	display: none !important;
 	
 }
-
 
 /* ---------------------- Margin -------------------- */
 
@@ -87,16 +79,6 @@ li:before {
 body {
 	counter-reset: counter1;
 }
-
-/*
-.list-h1 {
-	counter-reset: counter2
-}
-
-.list-h1::before {
-	counter-increment: counter1;
-	content: counter(counter1);
-}*/
 
 .list-h1 {
 	color:#436C9C;
