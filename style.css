@@ -57,7 +57,7 @@ h1 {
 /* ------------------- Ordered Lists ----------------- */
 
 ol {
-	counter-reset: item;
+	/*counter-reset: item;*/ 				/*Don't count lists right now*/
 
 	padding: 0;
 }
@@ -65,15 +65,15 @@ ol {
 li {
 	display: block;
 	display: inline-block;
-	counter-increment: start 3;
+/*	counter-increment: start 3;*/			/*Don't count lists right now*/
 
 }
-
+/*
 li:before {
-	content: counters(item, ".") " ";
+	content: counters(item, ".") " ";			*//*Don't count lists right now*//*
 	counter-increment: item;
 }
-
+*/
 /* --------------- Headers of the lists -------------- */
 
 body {
@@ -85,12 +85,14 @@ body {
 	font-family: Arial;
 	margin: 4px 0 4px 0;
 
+
 }
 
 .list-h2 {
 	color:#436C9C;
 	font-family: Arial;
 	margin: 4px 0 4px 0;
+
 
 }
 
@@ -100,6 +102,19 @@ body {
 	font-family: Arial;
 	margin: 4px 0 4px 0;
 
+
+}
+
+li.list-h1 {
+    list-style-type: none;
+}
+
+li.list-h2 {
+    list-style-type: none;
+}
+
+li.list-h3 {
+    list-style-type: none;
 }
 
 /* ------------------- Inside-parakomp ----------------- */
