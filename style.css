@@ -74,6 +74,15 @@ li:before {
 	counter-increment: item;
 }
 */
+
+counter { /* Artifical counter */
+	color:black;
+}
+
+counter::after {
+  content: "    ";
+}
+
 /* --------------- Headers of the lists -------------- */
 
 body {
