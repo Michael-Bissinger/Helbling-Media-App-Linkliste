@@ -77,7 +77,8 @@ li:before {
 
 counter { /* Artifical counter */
 	color:#436C9C;
-	font-style:italic;
+	/*font-style:italic;*/
+	font-weight: bold;
 }
 
 counter::after {
