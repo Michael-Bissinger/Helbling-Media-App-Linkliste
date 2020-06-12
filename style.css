@@ -95,7 +95,7 @@ body {
 	color:#436C9C;
 	font-family: Arial;
 	margin: 4px 0 4px 0;
-
+	font-weight: bold;
 
 }
 
@@ -103,7 +103,7 @@ body {
 	color:#436C9C;
 	font-family: Arial;
 	margin: 4px 0 4px 0;
-
+	font-weight: bold;
 
 }
 
@@ -167,7 +167,7 @@ book-page {
 }
 
 description {
-
+	font-weight:normal;
 }
 
 interpret {
